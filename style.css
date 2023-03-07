@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container,
+.add {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.note {
+    background: #D2B48C;
+    padding: 16px;
+    margin: 8px;
+    border-radius: 8px;
+    height: auto;
+    width: 300px;
+    box-shadow: 1px 1px 5px 2px #8B4513;
+}
+
+.note-actions {
+    float: right;
+}
+
+.delete, .bold, .ital, .edit {
+    padding: 4px;
+    cursor: pointer;
+
+}
+
+.addBut {
+    padding: 10px;
+    cursor: pointer;
+}
+
+body {
+    background-color: blanchedalmond;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+#note-text {
+    word-break: break-all;
+    white-space: pre-wrap; 
+}
+
+.hidden {
+    display: none;
+}
+
+textarea {
+    max-width: 270px;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.italicsText {
+    font-style: italic;
+}
